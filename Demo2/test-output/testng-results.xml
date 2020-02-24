@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48" started-at="2020-02-22T09:59:20Z" finished-at="2020-02-22T09:59:20Z">
+    <groups>
+      <group name="COURSE CONTENT">
+        <method signature="NewTestpriority.f()[pri:0, instance:testNG_package.NewTestpriority@6d00a15d]" name="f" class="testNG_package.NewTestpriority"/>
+      </group> <!-- COURSE CONTENT -->
+    </groups>
+    <test name="Default test" duration-ms="48" started-at="2020-02-22T09:59:20Z" finished-at="2020-02-22T09:59:20Z">
+      <class name="testNG_package.NewTestpriority">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNG_package.NewTestpriority@6d00a15d]" name="beforeSuite" is-config="true" duration-ms="28523" started-at="2020-02-22T15:28:51Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG_package.NewTestpriority@6d00a15d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:testNG_package.NewTestpriority@6d00a15d]" name="f" duration-ms="10" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.SearchContext]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.SearchContext
+	at testNG_package.NewTestpriority.f(NewTestpriority.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:1, instance:testNG_package.NewTestpriority@6d00a15d]" name="beforeMethod" duration-ms="2" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:2, instance:testNG_package.NewTestpriority@6d00a15d]" name="afterClass" duration-ms="1" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:3, instance:testNG_package.NewTestpriority@6d00a15d]" name="beforeClass" duration-ms="1" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:4, instance:testNG_package.NewTestpriority@6d00a15d]" name="afterMethod" duration-ms="1" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG_package.NewTestpriority@6d00a15d]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNG_package.NewTestpriority@6d00a15d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-02-22T15:29:20Z" finished-at="2020-02-22T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNG_package.NewTestpriority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
